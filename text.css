@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.title {
+    font-family: Verdana;
+    color: black;
+    text-align: center;
+    position: sticky;
+}
+
+.button1 {
+    height: 150px;
+    width: 261px;
+    font-family: Verdana;
+    font-size: 20px;
+    position: relative;
+    right: -21cm;
+    bottom: -5cm;
+    
+}
+
+.player {
+    position: absolute;
+    bottom: 40px;
+    font-family: Verdana;
+    color: white;
+    font-size: 20px;
+    bottom: 150px;
+}
+
+#username {
+    position: absolute;
+    left: 75px;
+    bottom: 8cm;
+}
+
+.jump {
+    animation: jump 0.8s linear;
+
+}
+
+@keyframes jump {
+    0% { bottom: 100px }
+    05% { bottom: 125px }
+    10% { bottom: 150px }
+    15% { bottom: 175px }
+    20% { bottom: 200px }
+    25% { bottom: 225px }
+    30% { bottom: 250px }
+    35% { bottom: 275px }
+    40% { bottom: 300px }
+    45% { bottom: 325px }
+    50% { bottom: 350px}
+    55% { bottom: 325px}
+    60% { bottom: 300px}
+    65% { bottom: 275px}
+    70% { bottom: 250px}
+    75% { bottom: 225px}
+    80% { bottom: 200px}
+    85% { bottom: 175px}
+    90% { bottom: 150px}
+    95% { bottom: 125px}
+    100% { bottom: 100px}
+
+
+}
+
+
+
+
+
